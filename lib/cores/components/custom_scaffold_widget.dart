@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lottie/lottie.dart';
+// import 'package:lottie/lottie.dart';
 
 import '../../app/locator.dart';
 import '../constants/constants.dart';
@@ -108,12 +108,12 @@ class ScaffoldWidget extends StatelessWidget {
                             borderRadius: BorderRadius.circular(sr(10)),
                           ),
                           padding: EdgeInsets.all(w(20)),
-                          child: Lottie.asset(
-                            "assets/lottie/state_status/plane.json",
-                            height: h(150),
-                            width: w(150),
-                            fit: BoxFit.fill,
-                          ),
+                          // child: Lottie.asset(
+                          //   "assets/lottie/state_status/plane.json",
+                          //   height: h(150),
+                          //   width: w(150),
+                          //   fit: BoxFit.fill,
+                          // ),
                         ),
                       ],
                     ),

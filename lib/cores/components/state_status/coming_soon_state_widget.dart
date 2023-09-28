@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
+// import 'package:lottie/lottie.dart';
 import '../../navigator/navigator.dart';
 
 import '../../utils/utils.dart';
@@ -33,13 +33,13 @@ class COmingSoonStateWidget extends StatelessWidget {
         verticalSpace(5),
         // ColoredBox(
         //   color: kcGrey100,
-        Lottie.asset(
-          "assets/lottie/state_status/coming-soon.json",
-          height: h(150),
-          width: w(150),
-          repeat: false,
-          fit: BoxFit.fill,
-        ),
+        // Lottie.asset(
+        //   "assets/lottie/state_status/coming-soon.json",
+        //   height: h(150),
+        //   width: w(150),
+        //   repeat: false,
+        //   fit: BoxFit.fill,
+        // ),
         // ),
         verticalSpace(20),
         SizedBox(

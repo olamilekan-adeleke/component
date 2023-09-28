@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
+// import 'package:lottie/lottie.dart';
 
 import '../../utils/utils.dart';
 import '../components.dart';
@@ -30,13 +30,13 @@ class SuccessStateWidget extends StatelessWidget {
           fontWeight: FontWeight.w400,
         ),
         verticalSpace(5),
-        Lottie.asset(
-          "assets/lottie/state_status/success_state_three.json",
-          height: h(150),
-          width: w(150),
-          repeat: false,
-          fit: BoxFit.fill,
-        ),
+        // Lottie.asset(
+        //   "assets/lottie/state_status/success_state_three.json",
+        //   height: h(150),
+        //   width: w(150),
+        //   repeat: false,
+        //   fit: BoxFit.fill,
+        // ),
         verticalSpace(20),
         SizedBox(
           width: sw(75),
